@@ -1,7 +1,7 @@
 Spring Boot HTTP组件预热Starter
 ====
 
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.shelltea/warmup-spring-boot-starter.svg)](https://central.sonatype.dev/namespace/io.github.shelltea) ![Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.shelltea/warmup-spring-boot-starter.svg)](https://central.sonatype.dev/namespace/io.github.shelltea) [![Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/shelltea/warmup-spring-boot-starter/blob/main/LICENSE)
 
 ## 简介
 
