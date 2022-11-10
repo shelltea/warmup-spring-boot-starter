@@ -20,19 +20,18 @@ public class WarmUpListener implements ApplicationListener<ApplicationReadyEvent
 
 ## 使用方法
 
-~~暂时未发布到Maven中央仓库，计划中。~~
-
-已发布Maven中央仓库。
-
 1. 增加依赖；
+
 ```xml
 <dependency>
     <groupId>io.github.shelltea</groupId>
     <artifactId>warmup-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>${version}</version>
 </dependency>
 ```
+
 2. 正常启动服务，如果日志中输出以下内容表示预热完成。
+
 ```
 Completed warm up application
 ```
@@ -43,7 +42,6 @@ Completed warm up application
 |------------------------------------|---------|------|----------|
 | management.endpoint.warm-up.enable | boolean | true | 开启预热     |
 | management.endpoint.warm-up.times  | int     | 5    | 预热接口请求次数 |
-
 
 ## 兼容性
 
