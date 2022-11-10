@@ -1,3 +1,8 @@
+Spring Boot HTTP组件预热Starter
+====
+
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.shelltea/warmup-spring-boot-starter.svg)](https://central.sonatype.dev/namespace/io.github.shelltea) ![Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+
 ## 简介
 
 Spring Boot的应用程序在启动时，JVM需要加载各种类进行初始化，导致初期的HTTP请求往往响应时间较长，这也就是我们经常遇到的冷启动问题。通过`warmup-spring-boot-starter`可以在应用程序对外提供服务之前预热**HTTP相关的组件**，从而降低HTTP请求响应时间。
